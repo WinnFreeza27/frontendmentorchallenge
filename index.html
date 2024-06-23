@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./style/style.css">
+  <title>FAQ Accordion Card</title>
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body class="h-screen flex flex-col justify-center items-center bg-gradient-to-tr from-soft-blue to-soft-violet overflow-hidden">
+  <div class="bg-white flex flex-col w-[90%] items-center shadow-lg shadow-black/30 rounded-[30px] mt-14 py-10 lg:flex-row lg:justify-evenly xl:w-[70%] transition duration-300">
+    <header class="lg:min-w-[50%] lg:h-max flex justify-center items-center md:mb-10">
+      <div class="w-60 h-60 sm:scale-125 md:scale-150 m-3 lg:scale-[175%] bg-center bg-[url('../images/illustration-woman-online-mobile.svg')] bg-no-repeat">
+      </div>
+    </header>
+    <section class="text-center font-kumbh min-w-full lg:min-w-[50%] overflow-hidden">
+       <h1 class="font-bold text-3xl md:text-4xl m-3">FAQ</h1>
+       <ul class="p-3 mb-5 mx-3">
+          <div class="text-left border-b border-t-divider py-2 cursor-pointer list-item group">
+            <div class="flex items-center justify-between py-2">
+              <li class="flex flex-col text-t-primary transition duration-100 group-hover:text-t-hover">How many team members can I invite?
+              </li>
+              <img class="w-3 h-2 mt-1 transition duration-100" src="./images/icon-arrow-down.svg" alt="">
+            </div>
+            <p class="hidden max-w-[80%] sm:max-w-full lg:max-w-[50ch] text-t-secondary text-sm">You can invite up to 2 additional users on the Free plan. There is no limit on 
+              team members for the Premium plan.</p>
+        </div>
+        <div class="text-left border-b border-t-divider py-2 cursor-pointer list-item transition-all duration-300 group">
+          <div class="flex items-center justify-between py-2">
+            <li class="flex flex-col text-t-primary transition duration-100 group-hover:text-t-hover">What is the maximum file upload size?
+            </li>
+            <img class="w-3 h-2 mt-1 transition duration-100" src="./images/icon-arrow-down.svg" alt="">
+          </div>
+          <p class="hidden max-w-[80%] sm:max-w-full text-t-secondary text-sm">  No more than 2GB. All files in your account must fit your allotted storage space.</p>
+      </div>
+      <div class="text-left border-b border-t-divider py-2 cursor-pointer list-item transition-all duration-300 group">
+        <div class="flex items-center justify-between py-2">
+          <li class="flex flex-col text-t-primary transition duration-100 group-hover:text-t-hover">How do I reset my password?
+          </li>
+          <img class="w-3 h-2 mt-1 transition duration-100" src="./images/icon-arrow-down.svg" alt="">
+        </div>
+        <p class="hidden max-w-[80%] sm:max-w-full text-t-secondary text-sm">Click “Forgot password” from the login page or “Change password” from your profile page.</p>
+    </div>
+    <div class="text-left border-b border-t-divider py-2 cursor-pointer list-item transition-all duration-300 group">
+      <div class="flex items-center justify-between py-2">
+        <li class="flex flex-col text-t-primary transition duration-100 group-hover:text-t-hover">Can I cancel my subscription?
+        </li>
+        <img class="w-3 h-2 mt-1 transition duration-100" src="./images/icon-arrow-down.svg" alt="">
+      </div>
+      <p class="hidden max-w-[80%] sm:max-w-full text-t-secondary text-sm">Yes! Send us a message and we’ll process your request no questions asked.</p>
+    </div>
+    <div class="text-left border-b border-t-divider py-2 cursor-pointer list-item transition-all duration-300 group">
+      <div class="flex items-center justify-between py-2">
+        <li class="flex flex-col text-t-primary transition duration-100 group-hover:text-t-hover">Do you provide additional support?
+        </li>
+        <img class="w-3 h-2 mt-1 transition duration-100" src="./images/icon-arrow-down.svg" alt="">
+      </div>
+      <p class="hidden max-w-[80%] sm:max-w-full text-t-secondary text-sm">Chat and email support is available 24/7. Phone lines are open during normal business hours.</p>
+    </div>
+       </ul>
+    </section>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
