@@ -1,5 +1,10 @@
 # Frontend Mentor - FAQ accordion card
-This project are challenge from [Frontend Mentor](https://www.frontendmentor.io), you can use this if you want, just clone it and install the modules, there is no live demo since i too lazy to do that, but everything worked fine on my device, built with [html,css(tailwind are optional),javascript]
+This project are challenge from [Frontend Mentor](https://www.frontendmentor.io), you can use this if you want, just clone it and install the modules, there is no live demo since i too lazy to do that, but everything worked fine on my device
+
+Built With : 
+- HTML 5
+- CSS (Tailwindcss)
+- Plain Javascript
 
 ![Design preview for the FAQ accordion card coding challenge](./design/desktop-preview.jpg)
 
